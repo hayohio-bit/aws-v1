@@ -14,7 +14,7 @@ public class HelloController {
     @GetMapping("/aws/v1")
     public String hello(@RequestParam(defaultValue = "1") Integer number){
         if(number == 1){ // info 로그
-            log.info("/aws/v1 info 로그 #####################################");
+            log.info("2026-01-06 /aws/v1 info 로그 #####################################");
         }else if(number == -1){ // error 로그
             log.error("/aws/v1 error 로그 #####################################");
         }else if(number == 0){ // warn 로그
