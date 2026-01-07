@@ -1,3 +1,4 @@
+#!/bin/bash
 SPRING_JAR="v1-0.0.1-SNAPSHOT.jar"
 SPRING_PATH="/home/ubuntu/aws-v1/build/libs/${SPRING_JAR}"
 LOG_FILE="/home/ubuntu/cron-restart/spring-restart.log"

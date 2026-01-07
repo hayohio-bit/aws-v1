@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Spring Boot stop..."
 
 SPRING_JAR="v1-0.0.1-SNAPSHOT.jar"

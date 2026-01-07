@@ -1,3 +1,4 @@
+#!/bin/bash
 set -e
 
 CRON_TMP="/home/ubuntu/crontab_new"
